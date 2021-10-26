@@ -1,0 +1,29 @@
+body {
+    background-color: darkslategray;
+    color: white;
+}
+input{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 244px;
+}
+button {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+div{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+select {
+    background-color: black;
+    color: white;
+}
+h1 {
+    color: white;
+    text-shadow: white;
+    text-align: center;
+}
