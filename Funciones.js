@@ -2,19 +2,19 @@ function Cpro() {
     var N1 = parseInt(document.getElementById("N1").value);
     var N2 = parseInt(document.getElementById("N2").value);
     var N3 = parseInt(document.getElementById("N3").value);
-    var Sum = N1+N2+N3
-    var Pro = Sum/3
+    var Sum = N1+N2+N3;
+    var Pro = Math.round(Sum/3);
     if (N1===3&N2===2&N3===2005) {
-        alert("Como conoces mi fecha de nacimiento {'°'}")
+        alert("Como conoces mi fecha de nacimiento {'°'}");
     }
     if (Pro>=70&Pro<=100) {
-        alert("Tu promedio es de "+Pro+", por ende, apruebas")
+        alert("Tu promedio es de "+Pro+", por ende, apruebas");
     } 
-    if (Pro>100) {
-        alert("La nota no corresponde entre 1 a 100")
+    if (N1>100#N2>100#N3>100) {
+        alert("La nota no corresponde entre 1 a 100");
     }
     if (Pro<70) {
-        alert("Tu promedio es de "+Pro+", por ende, repruebas")
+        alert("Tu promedio es de "+Pro+", por ende, repruebas");
     }
 }
 function Con () {
