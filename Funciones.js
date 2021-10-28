@@ -3,7 +3,7 @@ function Cpro() {
     var N2 = parseInt(document.getElementById("N2").value);
     var N3 = parseInt(document.getElementById("N3").value);
     var Sum = N1+N2+N3;
-    var Pro = Math.round(Sum/3);
+    var Pro = Math.round((Sum/3));
     if (N1===3&N2===2&N3===2005) {
         alert("Como conoces mi fecha de nacimiento {'°'}");
     }
