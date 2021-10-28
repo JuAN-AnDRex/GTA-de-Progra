@@ -10,7 +10,7 @@ function Cpro() {
     if (Pro>=70&Pro<=100) {
         alert("Tu promedio es de "+Pro+", por ende, apruebas");
     } 
-    if (N1>100#N2>100#N3>100) {
+    if (Pro>100) {
         alert("La nota no corresponde entre 1 a 100");
     }
     if (Pro<70) {
